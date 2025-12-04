@@ -15,6 +15,13 @@ if(OPENMP_FOUND)
 endif()
 # find_package(Boost 1.66.0 COMPONENTS filesystem python3 numpy3)
 find_package(DART REQUIRED COMPONENTS gui collision-bullet  CONFIG)
+
+# Set Python paths explicitly
+set(PYTHON_INCLUDE_DIR "/home/huang/miniconda3/envs/gaitnet/include/python3.6m")
+set(PYTHON_INCLUDE_DIRS "/home/huang/miniconda3/envs/gaitnet/include/python3.6m")
+set(PYTHON_LIBRARY "/home/huang/miniconda3/envs/gaitnet/lib/libpython3.6m.so")
+set(PYTHON_LIBRARIES "/home/huang/miniconda3/envs/gaitnet/lib/libpython3.6m.so")
+
 find_package(PythonLibs REQUIRED)
 find_package(pybind11 REQUIRED)
 

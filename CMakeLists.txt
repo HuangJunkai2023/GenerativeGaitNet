@@ -21,6 +21,11 @@ add_compile_options(-DHAVE_CSTDDEF)
 add_definitions(-DMASS_ROOT_DIR="..")
 set(CMAKE_MODULE_PATH "${CMAKE_HOME_DIRECTORY}/cmake")
 
+# Set Python paths for conda environment
+set(Python3_EXECUTABLE "/home/huang/miniconda3/envs/gaitnet/bin/python")
+set(PYTHON_EXECUTABLE "/home/huang/miniconda3/envs/gaitnet/bin/python")
+set(PYTHON_INCLUDE_DIR "/home/huang/miniconda3/envs/gaitnet/include/python3.6m")
+set(PYTHON_LIBRARY "/home/huang/miniconda3/envs/gaitnet/lib/libpython3.6m.so")
 
 find_package(PythonLibs 3.6 EXACT REQUIRED)
 find_package(PythonInterp 3.6 EXACT REQUIRED)
