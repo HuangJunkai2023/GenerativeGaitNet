@@ -10,7 +10,7 @@ mkdir -p build
 pushd build
 
 # 设置Python路径（使用conda环境）
-PYTHON_ROOT=${PYTHON_ROOT:-~/miniconda3/envs/gaitnet}
+PYTHON_ROOT=${PYTHON_ROOT:-~/miniconda3/envs/gaitnet_new}
 
 cmake -DCMAKE_EXPORT_COMPILE_COMMANDS=ON \
       -DCMAKE_BUILD_TYPE=Release \

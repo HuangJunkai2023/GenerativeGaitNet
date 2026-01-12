@@ -1,8 +1,8 @@
 #!/bin/bash
 
 # 设置环境变量
-export PYTHONHOME=/home/huang/miniconda3/envs/gaitnet
-export PYTHONPATH=/home/huang/miniconda3/envs/gaitnet/lib/python3.6
+export PYTHONHOME=/home/huang/miniconda3/envs/gaitnet_new
+export PYTHONPATH=/home/huang/miniconda3/envs/gaitnet_new/lib/python3.6
 export LD_LIBRARY_PATH=/home/huang/pkgenv/lib:$LD_LIBRARY_PATH
 
 # 进入build目录
